@@ -15,3 +15,6 @@ This represents our basic file structure for the entire tutorial.
 ## Step 2
 
 You are now set up to begin the tutorial. To begin, switch to the v1 branch.
+
+
+https://github.com/feedhenry/FH-Training-App-JQM/raw/master/docs/CameraView.png
