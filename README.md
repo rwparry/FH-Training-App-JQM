@@ -7,7 +7,7 @@ This part of the tutorial will teach you how to use save and load setting from t
 * Use the $fh.data() function
 * Use many types of input fields and components.
 
-![](https://github.com/feedhenry/FH-Training-App-Sencha/raw/v8/docs/settingsView.png)
+![](https://github.com/feedhenry/FH-Training-App-JQM/raw/master/docs/SettingsView.png)
 
 
 ## Step 1
