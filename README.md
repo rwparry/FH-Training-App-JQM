@@ -5,7 +5,7 @@ For this part of the tutorial we will create a page with access to the camera. T
 
 * Learn to use $fh.cam()
 
-![](https://github.com/feedhenry/FH-Training-App-Sencha/raw/v6/docs/cameraView.png)
+![](https://github.com/feedhenry/FH-Training-App-JQM/raw/master/docs/CameraView.png)
 
 
 ## Step 1
