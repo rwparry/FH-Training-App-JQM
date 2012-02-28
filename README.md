@@ -7,8 +7,7 @@ In this tutorial we will be adding a new view for credit card validation. This w
 * Learn to use input fields and read from them
 * Use $fh.web()
 
-![](https://github.com/feedhenry/FH-Training-App-Sencha/raw/v5/docs/creditCard.png)
-
+![](https://github.com/feedhenry/FH-Training-App-JQM/raw/master/docs/CreditCard.png)
 
 ## Step 1
 Begin by creating the creditcard.html file in the views folder (client/default/app/views) and add the following code.
@@ -151,8 +150,7 @@ This stylesheet then need to be referenced in the Payment page. Add the followin
 ## Step 8
 Verify what you have made is working by trying to validate a number sequence such as '0000000000000000'. You should receive the output shown below.
 
-![](https://github.com/feedhenry/FH-Training-App-Sencha/raw/v5/docs/creditCardCall.png)
-
+![](https://github.com/feedhenry/FH-Training-App-JQM/raw/master/docs/CreditCardCall.png)
 
 
 
