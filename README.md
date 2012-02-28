@@ -6,8 +6,7 @@ In this tutorial we will be creating the basic structure of the app. At the end 
 * Add a new page to the container page (app/views/home.html)
 * Use CSS to style jQuery Mobile components
 
-![](https://github.com/feedhenry/FH-Training-App-JQM/raw/v1/docs/HomeView.png)
-
+![](https://github.com/feedhenry/FH-Training-App-JQM/raw/master/docs/HomeView.png)
 ## Step 1
 Given the boilerplate code, we need to create a home page for the app. Create a home.html file in client/default/app/views
 and add the following code to it.
@@ -36,8 +35,7 @@ Open home.html (client/default/app/views/home.html) and add the following line w
 
 If you open your index.html page you will now see the following:
 
-![](https://github.com/feedhenry/FH-Training-App-JQM/raw/v1/docs/TestView.png)
-
+![](https://github.com/feedhenry/FH-Training-App-JQM/raw/master/docs/TestView.png)
 ## Step 4
 To give the home screen a customised appearance/style, open home.css (client/default/app/css) and add the following code:
                         
