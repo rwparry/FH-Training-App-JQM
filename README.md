@@ -5,7 +5,7 @@ As part of this training session we are going to create a simple jQuery Mobile A
 in how to build a jQuery Mobile User Interface and how to navigate within it. You will also learn to use the 
 FeedHenry APIs.
 
-![](https://github.com/feedhenry/FH-Training-App-Sencha/raw/v1/docs/HomeView.png)
+![](https://github.com/feedhenry/FH-Training-App-JQM/raw/master/docs/HomeView.png)
 
 ## Step 1
 
@@ -15,6 +15,3 @@ This represents our basic file structure for the entire tutorial.
 ## Step 2
 
 You are now set up to begin the tutorial. To begin, switch to the v1 branch.
-
-
-https://github.com/feedhenry/FH-Training-App-JQM/raw/master/docs/CameraView.png
