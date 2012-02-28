@@ -6,8 +6,7 @@ In this tutorial we will:
 * Add a number of UI components to the home page
 * Use CSS to style the new components
 
-![](https://github.com/feedhenry/FH-Training-App-JQM/raw/v1/docs/HomeView.png)
-
+![](https://github.com/feedhenry/FH-Training-App-JQM/raw/master/docs/HomeView.png)
 
 ## Step 1
 In the home.css file in the css directory, add the following code:
