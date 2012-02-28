@@ -6,28 +6,28 @@ In this tutorial we will be creating the basic structure of the app. At the end 
 * Add a new page to the container page (app/views/home.html)
 * Use CSS to style jQuery Mobile components
 
-![](https://github.com/eoghanfurlong/MVCinjQueryMobile/raw/v1/docs/HomeView.png)
+![](https://github.com/feedhenry/FH-Training-App-JQM/raw/v1/docs/HomeView.png)
 
 ## Step 1
 Given the boilerplate code, we need to create a home page for the app. Create a home.html file in client/default/app/views
 and add the following code to it.
 
-		<div class="header" data-role="header">
-			<img src="./images/logo.png"/>
-		</div>
+            <div class="header" data-role="header">
+                  <img src="./images/logo.png"/>
+            </div>
 
-		<div class="content">
-			<div>
-				
-			</div>
-		</div>
+            <div class="content">
+                  <div>
+                        
+                  </div>
+            </div>
 
 
 ## Step 2
 We must now add a reference to the new home page in the container page (index.html). To do this, open the index.html file and add the following
 code to the body section:
 
-		<div data-role="page" class="page" id="home"></div>
+            <div data-role="page" class="page" id="home"></div>
 
 ## Step 3
 Open home.html (client/default/app/views/home.html) and add the following line within the div named "content":
@@ -36,39 +36,39 @@ Open home.html (client/default/app/views/home.html) and add the following line w
 
 If you open your index.html page you will now see the following:
 
-![](https://github.com/eoghanfurlong/MVCinjQueryMobile/raw/v1/docs/TestView.png)
+![](https://github.com/feedhenry/FH-Training-App-JQM/raw/v1/docs/TestView.png)
 
 ## Step 4
 To give the home screen a customised appearance/style, open home.css (client/default/app/css) and add the following code:
-				
-		#menu{
-			list-style:none;
-			width:280px;
-			margin:20px auto;
-			clear:both;
-		}
+                        
+            #menu{
+                  list-style:none;
+                  width:280px;
+                  margin:20px auto;
+                  clear:both;
+            }
 
-		#menu li{
-			float:left;
-			margin-top:20px;
-		}
+            #menu li{
+                  float:left;
+                  margin-top:20px;
+            }
 
-		#menu li div{
-			width:100px;
-			height:100px;
-		}
+            #menu li div{
+                  width:100px;
+                  height:100px;
+            }
 
-		#menu li.spacer div{
-			width:60px;
-		}
-		#menu li div::after,#menu li div::before{
-			-webkit-box-sizing: border-box;
-			box-sizing: border-box;
-		-webkit-user-select: none;
-		-webkit-text-size-adjust: none;
-		-webkit-touch-callout: none;
-		-webkit-tap-highlight-color: rgba(0,0,0,0);
-		}
+            #menu li.spacer div{
+                  width:60px;
+            }
+            #menu li div::after,#menu li div::before{
+                  -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+            -webkit-user-select: none;
+            -webkit-text-size-adjust: none;
+            -webkit-touch-callout: none;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            }
 
 This css file then needs to be referenced, so add the following to the top of the home.html file:
 
