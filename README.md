@@ -1,4 +1,4 @@
-# FeedHenry jQuery Mobile Tutorial - Getting to v3
+# FeedHenry jQuery Mobile Tutorial - Google Map Implementation
 
 ## Overview
 In this tutorial we will add a new page for the Google Maps page. You will learn the following:
