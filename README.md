@@ -121,4 +121,4 @@ In init.js in /client/default/js folder. Put following code:
 
 
 Checkout the [v2 branch](https://github.com/feedhenry/FH-Training-App-JQM/tree/v2) to see the completed code.
-
+Next step will introduce how to implment google map.
