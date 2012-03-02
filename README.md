@@ -7,10 +7,7 @@ FeedHenry APIs.
 
 ![](https://github.com/feedhenry/FH-Training-App-JQM/raw/master/docs/HomeView.png)
 
-## Step 1
+## Get Started
 
-To begin this tutorial download the boilerplate code from [this link](https://github.com/eoghanfurlong/MVCinjQueryMobile/tree/boilerplate). Copy the code to your workspace once unzipped.
-This represents our basic file structure for the entire tutorial.
+Start the tutorial from [scratch branch] (https://github.com/feedhenry/FH-Training-App-JQM/tree/scratch)
 
-## Step 2
-You are now set up to begin the tutorial. To begin, switch to the [v1 branch.](https://github.com/feedhenry/FH-Training-App-JQM/tree/v1)
