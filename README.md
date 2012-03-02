@@ -1,4 +1,4 @@
-# FeedHenry jQuery Mobile Tutorial - v4
+# FeedHenry jQuery Mobile Tutorial - Getting to v4
 
 ## Overview
 In this tutorial we will add a new view for a Twitter feed page. You will learn to use models and further use of FeedHenry APIs.
@@ -141,3 +141,4 @@ This stylesheet then needs to be referenced in the Twitter page. Add the followi
 
 ![](https://github.com/feedhenry/FH-Training-App-JQM/raw/master/docs/Tweets.png)
 
+Checkout the v4 branch to see the completed code.
