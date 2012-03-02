@@ -1,7 +1,7 @@
 # FeedHenry jQuery Mobile Tutorial - Getting to v8
 
 ## Overview
-This part of the tutorial will teach you how to use save and load setting from the device local storage using the $fh.act() API call. More information on this API call can be found [here](http://docs.feedhenry.com/api-reference/local-storage/). After completing this tutorial you will be able to:
+This part of the tutorial will teach you how to use save and load setting from the device local storage using the $fh.data() API call. More information on this API call can be found [here](http://docs.feedhenry.com/api-reference/local-storage/). After completing this tutorial you will be able to:
 
 * Save and load data from local storage on a device
 * Use the $fh.data() function
