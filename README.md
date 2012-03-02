@@ -1,75 +1,60 @@
-# FeedHenry jQuery Mobile Tutorial - v1
+# FeedHenry jQuery Mobile Tutorial - v2
 
 ## Overview
-In this tutorial we will be creating the basic structure of the app. At the end of this tutorial you will know how to:
+In this tutorial we will: 
 
-* Add a new page to the container page (app/views/home.html)
-* Use CSS to style jQuery Mobile components
+* Add a number of UI components to the home page
+* Use CSS to style the new components
 
 ![](https://github.com/feedhenry/FH-Training-App-JQM/raw/master/docs/HomeView.png)
+
 ## Step 1
-Given the boilerplate code, we need to create a home page for the app. Create a home.html file in client/default/app/views
-and add the following code to it.
+In the home.css file in the css directory, add the following code:
 
-            <div class="header" data-role="header">
-                  <img src="./images/logo.png"/>
-            </div>
+            #menu #map div{
+                  background:url(../images/icons/maps_icon.png) no-repeat;
+                  background-size:100% 100%;
+            }
 
-            <div class="content">
-                  <div>
-                        
-                  </div>
-            </div>
+            #menu #twitter div{
+                  background:url(../images/icons/twitter_icon.png) no-repeat;
+                  background-size:100% 100%;
+            }
+
+This file will override the jQuery Mobile styles that are applied and style our icons as necessary.
 
 
 ## Step 2
-We must now add a reference to the new home page in the container page (index.html). To do this, open the index.html file and add the following
-code to the body section:
+In the home.html file in the views directory, add the following code to the content div:
 
-            <div data-role="page" class="page" id="home"></div>
-
-## Step 3
-Open home.html (client/default/app/views/home.html) and add the following line within the div named "content":
-
-`<p>Test View</p>`
-
-If you open your index.html page you will now see the following:
-
-![](https://github.com/feedhenry/FH-Training-App-JQM/raw/master/docs/TestView.png)
-## Step 4
-To give the home screen a customised appearance/style, open home.css (client/default/app/css) and add the following code:
+            <div>
+                  <ul id="menu">
+                        <li id="map">
+                              <div></div>
+                        </li>
+                        <li class="spacer"><div></div></li>
+                        <li id="twitter">
+                              <div></div>
+                        </li>
                         
-            #menu{
-                  list-style:none;
-                  width:280px;
-                  margin:20px auto;
-                  clear:both;
+                  </ul>
+            </div>
+
+This will add the Google Maps and Twitter icons to the home screen.
+
+
+# Step 3
+To add a handler for button clicks on the home page, create a bind.js file in the events folder (client/default/apps/events) and paste in the following code.
+
+            function bindEvent(){
+                  //homepage menu click event
+                  $("#menu li").bind("click",function(){
+                        var id=$(this).attr("id");
+                        if (id!=undefined){
+                              nav[id]();
+                        }
+                  });
+                  
             }
 
-            #menu li{
-                  float:left;
-                  margin-top:20px;
-            }
 
-            #menu li div{
-                  width:100px;
-                  height:100px;
-            }
-
-            #menu li.spacer div{
-                  width:60px;
-            }
-            #menu li div::after,#menu li div::before{
-                  -webkit-box-sizing: border-box;
-                  box-sizing: border-box;
-            -webkit-user-select: none;
-            -webkit-text-size-adjust: none;
-            -webkit-touch-callout: none;
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
-            }
-
-This css file then needs to be referenced, so add the following to the top of the home.html file:
-
-`<link rel="stylesheet" type="text/css" href="./css/home.css"/>`
-
-Checkout the v1 branch to see the completed code.
