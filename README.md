@@ -1,4 +1,4 @@
-# FeedHenry jQuery Mobile Tutorial - Getting to v4
+# FeedHenry jQuery Mobile Tutorial - Construct a list view to show tweets.
 
 ## Overview
 In this tutorial we will add a new view for a Twitter feed page. You will learn to use models and further use of FeedHenry APIs.
