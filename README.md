@@ -48,5 +48,5 @@ Now that we have our code completed we need to update index.html to include our 
 
 Checkout the [v6 branch](https://github.com/feedhenry/FH-Training-App-JQM/tree/v6) to see the completed code.
 
-
+Next step of tutorial will introduce how to use webview to open external web pages.
 
