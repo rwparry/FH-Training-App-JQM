@@ -24,6 +24,6 @@ var nav = {
 			changeView("twitter");
 
 		});
-	},
+	}
 	
 }
