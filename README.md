@@ -141,4 +141,4 @@ This stylesheet then needs to be referenced in the Twitter page. Add the followi
 
 ![](https://github.com/feedhenry/FH-Training-App-JQM/raw/master/docs/Tweets.png)
 
-Checkout the v4 branch to see the completed code.
+Checkout the [v4 branch](https://github.com/feedhenry/FH-Training-App-JQM/tree/v4) to see the completed code.
