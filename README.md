@@ -1,4 +1,4 @@
-# FeedHenry jQuery Mobile Tutorial - v7
+# FeedHenry jQuery Mobile Tutorial - Getting to v7
 
 ## Overview
 This short part of the tutorial will show you how to create a webview within your app. Doing this requires the use of the $fh.webview() API call. At the end of this tutorial you will know how to:
@@ -21,3 +21,4 @@ The code below is used to initialize the webview by clicking on the web icon and
 		},
 
 
+Checkout the v7 branch to see the completed code.
