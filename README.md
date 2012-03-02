@@ -1,4 +1,4 @@
-# FeedHenry jQuery Mobile Tutorial - v5
+# FeedHenry jQuery Mobile Tutorial - Getting to v5
 
 ## Overview
 In this tutorial we will be adding a new view for credit card validation. This will demonstrate the use of input fields and web requests using $fh.web().
@@ -151,6 +151,8 @@ This stylesheet then need to be referenced in the Payment page. Add the followin
 Verify what you have made is working by trying to validate a number sequence such as '0000000000000000'. You should receive the output shown below.
 
 ![](https://github.com/feedhenry/FH-Training-App-JQM/raw/master/docs/CreditCardCall.png)
+
+Checkout the v5 branch to see the completed code.
 
 
 
