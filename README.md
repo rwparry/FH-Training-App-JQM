@@ -155,5 +155,5 @@ Verify what you have made is working by trying to validate a number sequence suc
 Checkout the [v5 branch](https://github.com/feedhenry/FH-Training-App-JQM/tree/v5) to see the completed code.
 
 
-
+Next step will introduce how to access native functionality -- Camera.
 
