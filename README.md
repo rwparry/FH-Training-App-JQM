@@ -56,5 +56,5 @@ To add a handler for button clicks on the home page, create a bind.js file in th
                   });
                   
             }
-
+Checkout the v2 branch to see the completed code.
 
