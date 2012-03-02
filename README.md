@@ -46,7 +46,7 @@ Now that we have our code completed we need to update index.html to include our 
 
 	`<div data-add-back-btn="true" data-role="page" class="page" id="camera"></div>`
 
-Checkout the v6 branch to see the complted code.
+Checkout the v6 branch to see the completed code.
 
 
 
