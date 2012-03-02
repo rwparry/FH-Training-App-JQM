@@ -1,4 +1,4 @@
-# FeedHenry jQuery Mobile Tutorial - v6
+# FeedHenry jQuery Mobile Tutorial - Getting to v6
 
 ## Overview
 For this part of the tutorial we will create a page with access to the camera. The FeedHenry Camera API, $fh.cam(), is used to do this
@@ -46,6 +46,7 @@ Now that we have our code completed we need to update index.html to include our 
 
 	`<div data-add-back-btn="true" data-role="page" class="page" id="camera"></div>`
 
+Checkout the v6 branch to see the complted code.
 
 
 
