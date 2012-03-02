@@ -21,4 +21,4 @@ The code below is used to initialize the webview by clicking on the web icon and
 		},
 
 
-Checkout the v7 branch to see the completed code.
+Checkout the [v7 branch](https://github.com/feedhenry/FH-Training-App-JQM/tree/v7) to see the completed code.
