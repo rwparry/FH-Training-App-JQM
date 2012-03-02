@@ -135,4 +135,4 @@ This page also needs to be referneced in the index.html page.
 
 		<div data-add-back-btn="true" data-role="page" class="page" id="settings"></div>
 
-Checkout the v8 branch to see the completed code.
+Checkout the [v8 branch](https://github.com/feedhenry/FH-Training-App-JQM/tree/v8) to see the completed code.
