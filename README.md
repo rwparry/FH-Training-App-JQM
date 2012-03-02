@@ -272,4 +272,4 @@ In the 'main.js' file found in the cloud directory, find the following code snip
 
 Change the longitude and latitude values and then view the map page. The markers on the page should now be located in a new position.
 
-Checkout the v3 branch to see the completed code.
+Checkout the [v3 branch](https://github.com/feedhenry/FH-Training-App-JQM/tree/v3) to see the completed code.
