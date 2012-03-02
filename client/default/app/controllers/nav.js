@@ -49,9 +49,5 @@ var nav = {
 			title : 'FeedHenry',
 			url : 'http://www.feedhenry.com/'
 		});
-	},
-	settings : function() {
-		changeView("settings");
-		settingsController.loadSettings();
 	}
 }
