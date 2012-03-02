@@ -1,4 +1,4 @@
-# FeedHenry jQuery Mobile Tutorial - v3
+# FeedHenry jQuery Mobile Tutorial - Getting to v3
 
 ## Overview
 In this tutorial we will add a new page for the Google Maps page. You will learn the following:
@@ -11,7 +11,7 @@ In this tutorial we will add a new page for the Google Maps page. You will learn
 ## Step 1
 Create a file called googleMap.html in the views folder (client/default/app/views) and add the following code to create the Maps page:
 
-            	<link rel="stylesheet"  type="text/css" href="./css/map.css"/>
+                    <link rel="stylesheet"  type="text/css" href="./css/map.css"/>
 	    <!-- Google Maps API -->
 	    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
 
@@ -271,3 +271,5 @@ In the 'main.js' file found in the cloud directory, find the following code snip
 		};
 
 Change the longitude and latitude values and then view the map page. The markers on the page should now be located in a new position.
+
+Checkout the v3 branch to see the completed code.
