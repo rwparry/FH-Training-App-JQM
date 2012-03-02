@@ -1,4 +1,4 @@
-# FeedHenry jQuery Mobile Tutorial - v2
+# FeedHenry jQuery Mobile Tutorial - Getting to v2
 
 ## Overview
 In this tutorial we will: 
