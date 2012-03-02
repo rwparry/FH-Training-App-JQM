@@ -1,51 +1,24 @@
-# FeedHenry jQuery Mobile Tutorial - v6
+# FeedHenry jQuery Mobile Tutorial - Getting to v7
 
 ## Overview
-For this part of the tutorial we will create a page with access to the camera. The FeedHenry Camera API, $fh.cam(), is used to do this
+This short part of the tutorial will show you how to create a webview within your app. Doing this requires the use of the $fh.webview() API call. At the end of this tutorial you will know how to:
 
-* Learn to use $fh.cam()
+* Initialize a webview using the FeedHenry API
 
-![](https://github.com/feedhenry/FH-Training-App-Sencha/raw/v6/docs/cameraView.png)
+![](https://github.com/feedhenry/FH-Training-App-JQM/raw/master/docs/WebView.png)
 
 
 ## Step 1
-First we need to create our controller for the Camera. This will be a function contained within nav.js in controllers (client/default/app/controllers). It will contain a call to the $fh.cam() API call. you can read more about the camera API [here](http://docs.feedhenry.com/api-reference/camera/). The following code is used to create our camera controller.
+To initialize a webview we will make a call to the necessary FeedHenry API, $fh.webview(). For more information on this API call see [this](http://docs.feedhenry.com/api-reference/web-view/). As the webview is a separate component to jQuery Mobile we will not need to create a view for it - all we need to do is initialize it with a call when we click the icon.
 
-		camera : function() {
-				$fh.cam({
-					act : 'picture',
-					uri : true
-				}, function(res) {
-					if(res.uri) {
-						// Store the filepath to the image
-						var pathToImage = res.uri;
+The code below is used to initialize the webview by clicking on the web icon and should be included in the nav.js file in the controllers folder.
 
-						// Change the view
-						changeView("camera");
-						// Update the view
-						$("#camera .content img").attr("src", pathToImage);
-					}
-				});
+		webview : function() {
+			$fh.webview({
+				title : 'FeedHenry',
+				url : 'http://www.feedhenry.com/'
+			});
 		},
 
 
-
-## Step 2
-Now we need to create the page that will be populated with our captured image. It should have the same basic structure as previous pages.
-
-		<div  class="header" data-role="header">
-			<img src="./images/logo.png"/>
-		</div>
-		<div class="content">
-			<img />
-		</div>
-
-
-## Step 3
-Now that we have our code completed we need to update index.html to include our new files. Add the following line under the body tag.
-
-	`<div data-add-back-btn="true" data-role="page" class="page" id="camera"></div>`
-
-
-
-
+Checkout the [v7 branch](https://github.com/feedhenry/FH-Training-App-JQM/tree/v7) to see the completed code.
