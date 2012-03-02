@@ -27,6 +27,6 @@ var nav = {
 	},
 	creditcard : function() {
 		changeView("creditcard");
-	},
+	}
 
 }
