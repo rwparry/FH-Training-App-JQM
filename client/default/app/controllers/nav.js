@@ -45,12 +45,6 @@ var nav = {
 			}
 		});
 	},
-	webview : function() {
-		$fh.webview({
-			title : 'FeedHenry',
-			url : 'http://www.feedhenry.com/'
-		});
-	},
   stocks: function() {
     changeView('stocks');
   },
